@@ -1,0 +1,7 @@
+*.b#*
+*.bak
+*.s#*
+*.swp
+*~
+.DS_Store
+Thumbs.db
