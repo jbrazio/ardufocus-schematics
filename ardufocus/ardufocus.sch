@@ -14832,9 +14832,9 @@ Copyright (C) 2017-2019 João Brázio [joao@brazio.org]
 
 CC BY-NC-SA 4.0
 creativecommons.org/licenses/by-nc-sa/4.0/</text>
-<text x="60.96" y="172.72" size="1.778" layer="95">Serial</text>
-<text x="63.5" y="152.4" size="1.778" layer="95">I2C</text>
-<text x="38.1" y="152.4" size="1.778" layer="95">NTC</text>
+<text x="71.12" y="148.59" size="2.54" layer="95" rot="R90" align="top-center">Serial</text>
+<text x="71.12" y="135.89" size="2.54" layer="95" rot="R90" align="top-center">I2C</text>
+<text x="71.12" y="125.73" size="2.54" layer="95" rot="R90" align="top-center">NTC</text>
 <text x="208.28" y="66.04" size="1.778" layer="95">M1</text>
 <text x="208.28" y="129.54" size="1.778" layer="95">M2</text>
 </plain>
@@ -14849,12 +14849,12 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <instance part="OUT2" gate="G$1" x="127" y="121.92" smashed="yes">
 <attribute name="NAME" x="132.08" y="152.4" size="2.54" layer="95"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.4574" y="105.283" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="32.5374" y="105.283" size="1.778" layer="96" rot="R90"/>
+<instance part="C1" gate="G$1" x="25.4" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.9174" y="110.363" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.9974" y="110.363" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PGRM" gate="G$1" x="40.64" y="104.14" smashed="yes">
-<attribute name="NAME" x="38.1" y="106.68" size="1.778" layer="95" font="vector"/>
+<instance part="PGRM" gate="G$1" x="38.1" y="109.22" smashed="yes">
+<attribute name="NAME" x="35.56" y="111.76" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="218.44" y="60.96" smashed="yes">
 <attribute name="NAME" x="222.123" y="58.9026" size="1.778" layer="95"/>
@@ -14864,13 +14864,13 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <attribute name="NAME" x="222.123" y="122.4026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.837" y="118.8974" size="1.778" layer="96" rot="R180" align="top-right"/>
 </instance>
-<instance part="J5" gate="G$1" x="17.78" y="116.84" smashed="yes">
-<attribute name="VALUE" x="7.62" y="127" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="116.84" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="G$1" x="27.94" y="152.4" smashed="yes" rot="R180">
+<attribute name="VALUE" x="38.1" y="142.24" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="38.1" y="152.4" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="15.24" y="149.86" smashed="yes">
-<attribute name="NAME" x="11.43" y="151.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.43" y="146.558" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="43.18" y="127" smashed="yes">
+<attribute name="NAME" x="39.37" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="123.698" size="1.778" layer="96"/>
 </instance>
 <instance part="X2" gate="-1" x="205.74" y="63.5" smashed="yes">
 <attribute name="NAME" x="208.28" y="62.738" size="1.524" layer="95"/>
@@ -14896,35 +14896,35 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <instance part="X3" gate="-4" x="205.74" y="119.38" smashed="yes">
 <attribute name="NAME" x="208.28" y="118.618" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-1" x="60.96" y="149.86" smashed="yes">
-<attribute name="NAME" x="63.5" y="149.098" size="1.524" layer="95"/>
+<instance part="X4" gate="-1" x="63.5" y="139.7" smashed="yes">
+<attribute name="NAME" x="66.04" y="138.938" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-2" x="60.96" y="147.32" smashed="yes">
-<attribute name="NAME" x="63.5" y="146.558" size="1.524" layer="95"/>
+<instance part="X4" gate="-2" x="63.5" y="137.16" smashed="yes">
+<attribute name="NAME" x="66.04" y="136.398" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-3" x="60.96" y="144.78" smashed="yes">
-<attribute name="NAME" x="63.5" y="144.018" size="1.524" layer="95"/>
+<instance part="X4" gate="-3" x="63.5" y="134.62" smashed="yes">
+<attribute name="NAME" x="66.04" y="133.858" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate="-4" x="60.96" y="142.24" smashed="yes">
-<attribute name="NAME" x="63.5" y="141.478" size="1.524" layer="95"/>
+<instance part="X4" gate="-4" x="63.5" y="132.08" smashed="yes">
+<attribute name="NAME" x="66.04" y="131.318" size="1.524" layer="95"/>
 </instance>
-<instance part="X5" gate="-1" x="58.42" y="170.18" smashed="yes">
-<attribute name="NAME" x="60.96" y="169.418" size="1.524" layer="95"/>
+<instance part="X5" gate="-1" x="63.5" y="152.4" smashed="yes">
+<attribute name="NAME" x="66.04" y="151.638" size="1.524" layer="95"/>
 </instance>
-<instance part="X5" gate="-2" x="58.42" y="167.64" smashed="yes">
-<attribute name="NAME" x="60.96" y="166.878" size="1.524" layer="95"/>
+<instance part="X5" gate="-2" x="63.5" y="149.86" smashed="yes">
+<attribute name="NAME" x="66.04" y="149.098" size="1.524" layer="95"/>
 </instance>
-<instance part="X5" gate="-3" x="58.42" y="165.1" smashed="yes">
-<attribute name="NAME" x="60.96" y="164.338" size="1.524" layer="95"/>
+<instance part="X5" gate="-3" x="63.5" y="147.32" smashed="yes">
+<attribute name="NAME" x="66.04" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="X5" gate="-4" x="58.42" y="162.56" smashed="yes">
-<attribute name="NAME" x="60.96" y="161.798" size="1.524" layer="95"/>
+<instance part="X5" gate="-4" x="63.5" y="144.78" smashed="yes">
+<attribute name="NAME" x="66.04" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="X6" gate="-2" x="35.56" y="147.32" smashed="yes">
-<attribute name="NAME" x="38.1" y="146.558" size="1.524" layer="95"/>
+<instance part="X6" gate="-2" x="63.5" y="124.46" smashed="yes">
+<attribute name="NAME" x="66.04" y="123.698" size="1.524" layer="95"/>
 </instance>
-<instance part="X6" gate="-1" x="35.56" y="149.86" smashed="yes">
-<attribute name="NAME" x="38.1" y="149.098" size="1.524" layer="95"/>
+<instance part="X6" gate="-1" x="63.5" y="127" smashed="yes">
+<attribute name="NAME" x="66.04" y="126.238" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -14981,27 +14981,27 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 </segment>
 <segment>
 <pinref part="PGRM" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<label x="48.26" y="104.14" size="1.778" layer="95" xref="yes"/>
+<wire x1="43.18" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
+<label x="45.72" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="GND"/>
-<wire x1="20.32" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<label x="27.94" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="25.4" y1="149.86" x2="17.78" y2="149.86" width="0.1524" layer="91"/>
+<label x="17.78" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
-<label x="55.88" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<label x="58.42" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="X4" gate="-4" pin="S"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<label x="30.48" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
+<label x="58.42" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="X6" gate="-2" pin="S"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="162.56" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
-<label x="53.34" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
+<label x="58.42" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="X5" gate="-4" pin="S"/>
 </segment>
 </net>
@@ -15030,9 +15030,9 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="60.96" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="17.78" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="PWR"/>
-<wire x1="20.32" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="4">
@@ -15042,12 +15042,12 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-<junction x="22.86" y="149.86"/>
-<wire x1="22.86" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="149.86" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<label x="22.86" y="152.4" size="1.27" layer="95" rot="R90" xref="yes"/>
-<junction x="22.86" y="149.86"/>
+<wire x1="48.26" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<junction x="50.8" y="127"/>
+<wire x1="50.8" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="127" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
+<label x="50.8" y="121.92" size="1.27" layer="95" rot="R270" xref="yes"/>
+<junction x="50.8" y="127"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="X6" gate="-1" pin="S"/>
 </segment>
@@ -15059,8 +15059,8 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="10.16" y1="149.86" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
-<label x="7.62" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="38.1" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<label x="35.56" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -15091,13 +15091,13 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="55.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<label x="58.42" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="X4" gate="-1" pin="S"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="170.18" x2="53.34" y2="170.18" width="0.1524" layer="91"/>
-<label x="53.34" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
+<label x="58.42" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="X5" gate="-1" pin="S"/>
 </segment>
 </net>
@@ -15168,8 +15168,8 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="12.7" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="22.86" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="22.86" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
+<label x="20.32" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -15180,9 +15180,9 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="12.7" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<label x="53.34" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="X5" gate="-3" pin="S"/>
+<wire x1="60.96" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
+<label x="55.88" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X4" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -15192,9 +15192,9 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="12.7" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
-<label x="53.34" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="60.96" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
+<label x="55.88" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X4" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -15356,7 +15356,7 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="PGRM" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 </net>
@@ -15367,9 +15367,9 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
 <label x="55.88" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="X5" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -15379,9 +15379,30 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <label x="60.96" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="55.88" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="X4" gate="-3" pin="S"/>
+<wire x1="60.96" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="55.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X5" gate="-2" pin="S"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="3V3"/>
+<wire x1="55.88" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="A1"/>
+<wire x1="55.88" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<label x="60.96" y="55.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A3" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="A3"/>
+<wire x1="55.88" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
+<label x="60.96" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -15392,13 +15413,16 @@ creativecommons.org/licenses/by-nc-sa/4.0/</text>
 <approved hash="104,1,55.88,81.28,M1,VIN,+12V,,,"/>
 <approved hash="104,1,55.88,78.74,M1,GND.2,GND,,,"/>
 <approved hash="104,1,55.88,73.66,M1,5V,+5V,,,"/>
-<approved hash="204,1,55.88,48.26,M1,3V3,,,,"/>
+<approved hash="104,1,55.88,48.26,M1,3V3,+3V3,,,"/>
 <approved hash="104,1,193.04,88.9,OUT1,VMOT,+12V,,,"/>
 <approved hash="104,1,193.04,38.1,OUT1,GNDMOT,GND,,,"/>
 <approved hash="104,1,111.76,88.9,OUT1,VDD,+5V,,,"/>
 <approved hash="104,1,193.04,152.4,OUT2,VMOT,+12V,,,"/>
 <approved hash="104,1,193.04,101.6,OUT2,GNDMOT,GND,,,"/>
 <approved hash="104,1,111.76,152.4,OUT2,VDD,+5V,,,"/>
+<approved hash="106,1,55.88,48.26,+3V3,,,,,"/>
+<approved hash="106,1,55.88,55.88,A1,,,,,"/>
+<approved hash="106,1,55.88,60.96,A3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
